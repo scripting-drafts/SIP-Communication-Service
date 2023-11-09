@@ -3,10 +3,7 @@ import wikipedia
 import pyjokes
 import pywhatkit
 import datetime
-import importlib
-from subprocess import Popen
-import sys
-sip_client = importlib.import_module("sip_client-dev")
+import sip_client
 
 class take_action:
     def __init__(self, sockets_ininitiation=2):

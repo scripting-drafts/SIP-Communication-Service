@@ -1,3 +1,4 @@
+# Sets up a SIP Client
 import socket
 from ThreadS import ThreadS
 import time
@@ -72,7 +73,3 @@ class sip_client:
         else:
             sip_receive_thread = ThreadS(target=self.sip_types[action], args=())
             sip_receive_thread.start()
-
-    # def join(self):
-    #     for thread in self.threads:
-    #         thread.join()

@@ -1,35 +1,10 @@
-# Setup a SIP server
+# Sets up a SIP server
 import socket
 import threading
 import time
 import string
 
-# SIP server socket
-# sip_server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-# sip_server_socket.bind((sip_server_ip, sip_server_port))
-# class sip_server:
-#     # SIP server thread function
-
-
-# # SIP server thread
-# sip_server_thread = threading.Thread(target=sip_server_thread_function, args=())
-# sip_server_thread.start()
-
-# SIP client socket
-# sip_client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
-# # SIP client thread function
-# def sip_client_thread_function():
-#     while True:
-#         sip_client_socket.sendto(b'Hello, world!', (sip_server_ip, sip_server_port))
-#         time.sleep(1)
-
-# # SIP client thread
-# sip_client_thread = threading.Thread(target=sip_client_thread_function, args=())
-# sip_client_thread.daemon = True
-# sip_client_thread.start()
-
-class sip_client:
+class sip_server:
     def __init__(self):
         SIP_CLIENT_IP = None
         self.sip_server_ip = self.get_client_address()
