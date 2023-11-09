@@ -7,7 +7,7 @@ Client: Run conversational
 ## How it works
 
 **Client**: Listens voice -> Translates to text -> Relays text  
-**Server**: Feeds text to Neural Network (microsoft/GODEL-v1_1-large-seq2seq)-> arbitrarily gets summarized (google/pegasus-xsum) -> logging proceeds -> Answers get relayed
+**Server**: Feeds text to Neural Network (microsoft/GODEL-v1_1-large-seq2seq)-> arbitrarily gets summarized (google/pegasus-xsum) -> logging proceeds -> Answers get relayed  
 **Client**: Speaks answers out loud  
 
 ### TODO
