@@ -31,11 +31,12 @@ import string
 
 class sip_client:
     def __init__(self):
+        SIP_CLIENT_IP = None
         self.sip_server_ip = self.get_client_address()
         self.sip_server_port = 5060
     
         self.sip_client_port = 5061
-        self.sip_client_ip = '192.168.1.54'
+        self.sip_client_ip = SIP_CLIENT_IP
 
         sip_server_name = 'sip_server'
         sip_server_domain = 'sip_server.com'
