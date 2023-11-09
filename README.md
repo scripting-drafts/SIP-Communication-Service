@@ -1,6 +1,6 @@
 # A SIP Communication Service
 
-Requirement - Add Client IP Address Server and Client Sides
+Requirement - Add Client IP Address Server and Client Sides  
 Server: Run data_handler  
 Client: Run conversational  
 
