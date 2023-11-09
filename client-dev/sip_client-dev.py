@@ -4,11 +4,13 @@ import time
 
 class sip_client:
     def __init__(self):
+        SERVER_LOCAL_IP = None
+
         sip_client_port = 5061
         sip_client_ip = self.get_client_address()
         
         self.sip_server_port = 5060
-        self.sip_server_ip = '192.168.1.56'
+        self.sip_server_ip = SERVER_LOCAL_IP
 
         self.threads = []
         self.sip_types = {
