@@ -10,3 +10,4 @@ server-dev/Models/sentiment.py
 server-dev/Telegram-bot
 server-dev/zdeprecated
 server-dev/telegram-handler.py
+SIP-Communication-Service.code-workspace

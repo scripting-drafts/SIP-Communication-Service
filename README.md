@@ -15,6 +15,3 @@ Client: Run conversational
  - Make the generation of Files available to models that require 'knowledge' logging - Autogenerate  
  - _Encrypt_ UDP  
  - Evolve from Backbone Edge Computing to Cloud Native  
-
-**Notes**  
-Find in .gitignore useful resources functional to similar purposes  
